@@ -20,11 +20,14 @@ Permite realizar operaciones básicas de una BD:
 
 ## Estructura del proyecto
 
-.
 ├── avl_tree.py # Implementación del árbol AVL (índice en memoria)
+
 ├── storage_manager.py # Manejo de archivo JSON por línea (persistencia)
+
 ├── database_manager.py # Lógica del gestor: coordina AVL + archivo
+
 ├── main.py # Interfaz de consola para probar el sistema
+
 └── data.jsonl # Archivo de datos (persistencia) – opcional inicial
 
 ### 1. `avl_tree.py` – Árbol AVL
